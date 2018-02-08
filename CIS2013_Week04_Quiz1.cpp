@@ -6,7 +6,7 @@ int main() {
 	cout << "How many numbers per line would you like? ";
 	cin >> x;
 
-	for (int i = 0; i < 2000; i++)
+	for (int i = 1; i < 2000; i++)
 	{
 		if (i % 50== 0) {
 			cout << "FOO" << endl;
